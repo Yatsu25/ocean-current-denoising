@@ -1,0 +1,42 @@
+{
+  "energetic": {
+    "bruité": {
+      "rmse_ssh_cm": 3.7731,
+      "rmse_courant_cm_s": 33.3677,
+      "ratio_eke": 1.8476,
+      "ssim": 0.7602
+    },
+    "gaussien (σ=1.5)": {
+      "rmse_ssh_cm": 1.9713,
+      "rmse_courant_cm_s": 8.0842,
+      "ratio_eke": 0.9219,
+      "ssim": 0.9579
+    },
+    "CNN": {
+      "rmse_ssh_cm": 1.903,
+      "rmse_courant_cm_s": 10.8215,
+      "ratio_eke": 1.0184,
+      "ssim": 0.9672
+    }
+  },
+  "calm": {
+    "bruité": {
+      "rmse_ssh_cm": 3.789,
+      "rmse_courant_cm_s": 33.4352,
+      "ratio_eke": 233.2453,
+      "ssim": 0.0324
+    },
+    "gaussien (σ=1.5)": {
+      "rmse_ssh_cm": 1.7383,
+      "rmse_courant_cm_s": 6.9105,
+      "ratio_eke": 10.7751,
+      "ssim": 0.2075
+    },
+    "CNN": {
+      "rmse_ssh_cm": 1.4439,
+      "rmse_courant_cm_s": 8.5674,
+      "ratio_eke": 14.9907,
+      "ssim": 0.4071
+    }
+  }
+}

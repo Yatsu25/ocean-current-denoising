@@ -1,0 +1,44 @@
+{
+  "MSE seule": {
+    "energetic": {
+      "rmse_ssh_cm": 2.0417,
+      "rmse_courant_cm_s": 14.989,
+      "ratio_eke": 1.124,
+      "ssim": 0.9606
+    },
+    "calm": {
+      "rmse_ssh_cm": 1.4237,
+      "rmse_courant_cm_s": 10.7934,
+      "ratio_eke": 24.1015,
+      "ssim": 0.3487
+    }
+  },
+  "MSE + gradients (λ=10)": {
+    "energetic": {
+      "rmse_ssh_cm": 1.9402,
+      "rmse_courant_cm_s": 11.3856,
+      "ratio_eke": 1.0256,
+      "ssim": 0.9657
+    },
+    "calm": {
+      "rmse_ssh_cm": 1.3979,
+      "rmse_courant_cm_s": 8.8985,
+      "ratio_eke": 16.3561,
+      "ssim": 0.4029
+    }
+  },
+  "MSE + gradients (λ=50)": {
+    "energetic": {
+      "rmse_ssh_cm": 1.903,
+      "rmse_courant_cm_s": 10.8215,
+      "ratio_eke": 1.0184,
+      "ssim": 0.9672
+    },
+    "calm": {
+      "rmse_ssh_cm": 1.4439,
+      "rmse_courant_cm_s": 8.5674,
+      "ratio_eke": 14.9907,
+      "ssim": 0.4071
+    }
+  }
+}
